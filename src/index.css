@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  @apply font-bold text-strathmore-blue;
+}
+
+/* Strathmore-specific heading styles */
+h1 {
+  @apply text-3xl md:text-4xl;
+}
+
+h2 {
+  @apply text-2xl md:text-3xl border-b-2 border-strathmore-gold pb-2;
+}
