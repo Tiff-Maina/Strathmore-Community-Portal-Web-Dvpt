@@ -102,7 +102,3 @@ The portal is designed to serve distinct Strathmore user groups with specific ca
 * Advanced **Search and Filtering** options for campaigns.
 * In-app **Notifications** and messaging system.
 * Integration with Strathmore's **CAS/LDAP** for seamless single sign-on verification.
-
-## License
-
-This project is open-source and distributed under the [MIT License](LICENSE).
