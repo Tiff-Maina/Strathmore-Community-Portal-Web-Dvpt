@@ -1,8 +1,7 @@
 # Strathmore University Community Fundraising Portal
 Welcome to the repository for the Strathmore University Community Fundraising Portal. This web application is designed to centralize and streamline philanthropic efforts within the Strathmore community, empowering verified members to create and support charitable campaigns.
 
-##
-NOTE
+### NOTE
 One can run the website locally once you clone the git repository.
 
 ## Group Members
