@@ -1,6 +1,9 @@
 # Strathmore University Community Fundraising Portal
-
 Welcome to the repository for the Strathmore University Community Fundraising Portal. This web application is designed to centralize and streamline philanthropic efforts within the Strathmore community, empowering verified members to create and support charitable campaigns.
+
+##
+NOTE
+One can run the website locally once you clone the git repository.
 
 ## Group Members
 
@@ -102,3 +105,15 @@ The portal is designed to serve distinct Strathmore user groups with specific ca
 * Advanced **Search and Filtering** options for campaigns.
 * In-app **Notifications** and messaging system.
 * Integration with Strathmore's **CAS/LDAP** for seamless single sign-on verification.
+
+## Getting Started
+
+To run the project locally:
+
+1. Clone the repository.
+2. Install dependencies: npm install
+3. Create a `.env` file in the root directory and add your Firebase config.
+4. Start the development server: npm run dev
+
+# Screenshots
+To view screenshots of the project UI, click https://drive.google.com/drive/folders/1iwtE0OAb2jF_jN70KzyvkpwH9HfxZDn6?usp=drive_link
