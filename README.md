@@ -71,10 +71,14 @@ The portal will include the following essential features, aligning with modern f
 The portal is designed to serve distinct Strathmore user groups with specific capabilities:
 
 
- **Administrator (Staff)** | Review/approve/reject campaigns; manage categories; view all donations and platform reports; access analytics.                                                                                          
- **Campaign Creator (Student/Faculty/Staff)** | Create and edit their own campaigns; post updates; view progress of their campaigns; answer donor questions; view donations to their specific projects.                                    
- **Donor (Community Member)** | Browse/follow campaigns; donate online; view personal donation history and receipts.                                                                                                                  
- **Alumni/Public (Optional)** | (If enabled by admin) View and donate to public campaigns; sign up with email verification; track their contributions (if registered).                                                                
+ | Role             | Capabilities                                                                 |
+|------------------|------------------------------------------------------------------------------|
+| Administrator    | Review and approve campaigns, manage categories, view reports                |
+| Campaign Creator | Launch/edit campaigns, view donations, post updates, respond to donors       |
+| Donor            | Browse campaigns, donate, track donation history and receipts                |
+| Alumni/Public    | (Optional) Donate to public campaigns with email verification                |
+
+---                                    
 
 ## Technologies Used
 
@@ -90,6 +94,15 @@ The portal is designed to serve distinct Strathmore user groups with specific ca
         * Firebase Authentication
     * (Simulated) M-Pesa Integration (Frontend-only simulation for now; full integration requires Daraja API via backend).
 
-## Project Structure
+## Future Enhancements
 
-The project follows a standard React application structure:
+* Full **Admin Dashboard** for campaign approval, user management, and detailed analytics.
+* Implement **Real M-Pesa Integration** via a secure backend (e.g., Firebase Cloud Functions or a separate Node.js server) interacting with Safaricom's Daraja API.
+* Enhanced **User Profiles** and personalized dashboards.
+* Advanced **Search and Filtering** options for campaigns.
+* In-app **Notifications** and messaging system.
+* Integration with Strathmore's **CAS/LDAP** for seamless single sign-on verification.
+
+## License
+
+This project is open-source and distributed under the [MIT License](LICENSE).
